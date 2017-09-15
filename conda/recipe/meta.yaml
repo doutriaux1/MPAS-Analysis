@@ -35,5 +35,8 @@ requirements:
 about:
     home:  http://gitub.com/MPAS-Dev/MPAS-Analysis
 
-
+extra:
+    recipe-maintainers:
+        - doutriaux1
+        - xylar
 
