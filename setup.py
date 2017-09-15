@@ -37,6 +37,6 @@ setup(name='mpas_analysis',
       ],
       packages=find_packages(),
       package_data={'mpas_analysis': ['config.default']},
-      install_requires=['numpy', 'scipy', 'matplotlib', 'netCDF4', 'xarray',
-                        'dask', 'bottleneck', 'basemap', 'lxml', 'nco'],
+     # install_requires=['numpy', 'scipy', 'matplotlib', 'netCDF4', 'xarray',
+     #                   'dask', 'bottleneck', 'basemap', 'lxml', 'nco'],
       scripts=['run_analysis.py'])
